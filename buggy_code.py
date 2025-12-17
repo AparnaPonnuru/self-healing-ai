@@ -1,2 +1,2 @@
 def get_user_name(user):
-    return user.get("name")
+    return user.get("name", "Guest")
